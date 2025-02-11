@@ -1,0 +1,28 @@
+[project]
+name = "testtask1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.11.12",
+    "alembic>=1.14.1",
+    "asyncpg>=0.30.0",
+    "fastapi>=0.115.8",
+    "loguru>=0.7.3",
+    "pydantic-settings>=2.7.1",
+    "pytest-asyncio>=0.25.3",
+    "pytest>=8.3.4",
+    "ruff>=0.9.6",
+    "sqlalchemy>=2.0.38",
+    "httpx>=0.28.1",
+    "uvicorn>=0.34.0",
+    "aiosqlite>=0.21.0",
+]
+
+
+[tool.pyright]
+pythonVersion ="3.13"
+strict = ["src"]
+strictDictionaryInference = false
+strictListInference = false
